@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cee6ZNv" component="$model/UI2/system/components/justep/window/window" design="device:mobile;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cee6ZNv" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-black.cee6ZNv{color: rgb(51, 51, 51)} .tb-nopadding.cee6ZNv{padding-left: 0; padding-right: 0} .x-panel-top.cee6ZNv .x-titlebar.cee6ZNv{background-color: gray} .x-titlebar.cee6ZNv .x-titlebar-title.cee6ZNv{font-weight: normal} .x-cards.cee6ZNv{padding: 0} .tb-box.cee6ZNv, .tb-box.cee6ZNv &gt; .col.cee6ZNv{height: 100%; margin: 0; padding: 0} .tb-box.cee6ZNv &gt; .col.cee6ZNv{overflow: auto} .tb-box.cee6ZNv &gt; .col.cee6ZNv:first-child{padding-right: 5px} .list-group.cee6ZNv{box-shadow: none} .list-group-item.cee6ZNv{background-color: rgb(245, 245, 245); border-radius: 0; border-color: rgb(225, 225, 225); height: 50px} .list-group-item.current.cee6ZNv{background-color: rgb(255, 255, 255); border-right: 0; color: rgb(207, 2, 2)} .list-group-item.current.cee6ZNv h5.cee6ZNv{color: rgb(207, 2, 2)} .tb-listBox.cee6ZNv{padding-left: 0px; padding-right: 5px; margin-bottom: 5px} .tb-listBox.cee6ZNv div.cee6ZNv{background-color: rgb(255, 255, 255)} .tb-listBox.cee6ZNv p.cee6ZNv{font-size: 11px; margin-top: 5px} .img1.cee6ZNv{height: 60px; width: 50px} .x-output.cee6ZNv{padding-top: 3px}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cee6ZNv" class="cee6ZNv"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card x-has-iosstatusbar pcyi2uYv-iosstatusbar cee6ZNv" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cee6ZNv"> 
+    <div class="x-panel-top cee6ZNv" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" data-config="{&quot;height&quot;:49}" __cid="cee6ZNv"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cee6ZNv" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;宝贝分类&quot;}" __cid="cee6ZNv"> 
+        <div class="x-titlebar-left cee6ZNv" __cid="cee6ZNv"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cee6ZNv" xid="button6" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{operation:'window.close'}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;分类&quot;}" __cid="cee6ZNv"> 
+            <i xid="i6" class="icon-chevron-left cee6ZNv" __cid="cee6ZNv"/>  
+            <span xid="span6" __cid="cee6ZNv" class="cee6ZNv">分类</span> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cee6ZNv" __cid="cee6ZNv">宝贝分类</div>  
+        <div class="x-titlebar-right  cee6ZNv" __cid="cee6ZNv"> 
+          <div class="empty cee6ZNv" __cid="cee6ZNv"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div xid="content" class="x-panel-content x-cards cee6ZNv" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cee6ZNv"> 
+      <div component="$model/UI2/system/components/bootstrap/row/row" class="row tb-box cee6ZNv" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cee6ZNv"> 
+        <div class="col col-xs-3 cee6ZNv" xid="col10" __cid="cee6ZNv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list tb-root cee6ZNv" xid="rootClassList" dataItemAlias="rootClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;rootClassData&quot;}" __cid="cee6ZNv"> 
+            <ul class="x-list-template list-group hide cee6ZNv" xid="listTemplateUl1" __cid="cee6ZNv" data-bind="foreach:{data:$model.foreach_rootClassList($element),afterRender:$model.foreach_afterRender_rootClassList.bind($model,$element),as:'rootClassRow'}"> 
+              <li xid="li1" class="list-group-item text-center tb-nopadding cee6ZNv" __cid="cee6ZNv" data-bind="css:{'current':rootClassRow.val('fID')==$model.rootClassData.val('fID')}"> 
+                <h5 xid="h52" class="text-black cee6ZNv" __cid="cee6ZNv" data-bind="text:ref('fClassName')"/> 
+              </li> 
+            </ul> 
+          </div> 
+        </div>  
+        <div class="col col-xs-9 cee6ZNv" xid="col11" __cid="cee6ZNv"> 
+          <div component="$model/UI2/system/components/justep/list/list" class="x-list cee6ZNv" xid="secondClassList" dataItemAlias="secondClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;secondClassData&quot;,&quot;filter&quot;:&quot;$row.val(\&quot;fRootID\&quot;)==$model.rootClassData.val(\&quot;fID\&quot;)&quot;}" __cid="cee6ZNv"> 
+            <ul class="x-list-template hide cee6ZNv" xid="listTemplateUl2" __cid="cee6ZNv" data-bind="foreach:{data:$model.foreach_secondClassList($element),afterRender:$model.foreach_afterRender_secondClassList.bind($model,$element),as:'secondClassRow'}"> 
+              <li xid="li2" __cid="cee6ZNv" class="cee6ZNv"> 
+                <h5 class="text-muted cee6ZNv" __cid="cee6ZNv" data-bind="text:ref('fClassName')"/>  
+                <div component="$model/UI2/system/components/justep/list/list" class="x-list clearfix cee6ZNv" xid="thirdClassList" dataItemAlias="thirdClassRow" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;thirdClassData&quot;,&quot;filter&quot;:&quot;$row.val('fSecondID')==secondClassRow.val('fID')&quot;}" __cid="cee6ZNv"> 
+                  <ul class="x-list-template hide cee6ZNv" xid="listTemplateUl3" __cid="cee6ZNv" data-bind="foreach:{data:$model.foreach_thirdClassList($element),afterRender:$model.foreach_afterRender_thirdClassList.bind($model,$element),as:'thirdClassRow'}"> 
+                    <li xid="li3" class="col text-center tb-listBox text-black cee6ZNv" __cid="cee6ZNv"> 
+                      <div component="$model/UI2/system/components/justep/row/row" class="x-row cee6ZNv" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cee6ZNv"> 
+                        <div class="x-col x-col-fixed cee6ZNv" xid="col1" style="width:auto;" __cid="cee6ZNv"> 
+                          <img alt="" xid="image1" class="img1 cee6ZNv" __cid="cee6ZNv" data-bind="attr:{src:$model.getImageUrl(&quot;./image/&quot;+val(&quot;fClassImg&quot;))},event:{click:$model._callModelFn.bind($model, 'image1Click')}"/> 
+                        </div>  
+                        <div class="x-col x-col-fixed cee6ZNv" xid="col2" __cid="cee6ZNv"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6ZNv" xid="output3" style="font-size:small;" data-bind="component:{ref:ref(&quot;fClassName&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cee6ZNv"/>  
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6ZNv" xid="output2" style="color:#FF0000;font-size:x-small;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'},text:val(&quot;fClassPrice&quot;)+&quot;元/份&quot;" __cid="cee6ZNv"/>  
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6ZNv" xid="output4" style="font-size:xx-small;" data-bind="component:{name:'$model/UI2/system/components/justep/output/output'},text:&quot;已点&quot;+ val(&quot;fClassNumber&quot;)+&quot;份&quot;" __cid="cee6ZNv"/> 
+                        </div>  
+                        <div class="x-col x-col-fixed center-block cee6ZNv" xid="col3" style="width:auto;" __cid="cee6ZNv"> 
+                          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cee6ZNv" xid="subBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:subBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-volumemedium&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cee6ZNv"> 
+                            <i xid="i1" class="linear linear-volumemedium cee6ZNv" style="color:#000000;" __cid="cee6ZNv"/>  
+                            <span xid="span5" __cid="cee6ZNv" class="cee6ZNv"/> 
+                          </a> 
+                        </div>  
+                        <div class="x-col x-col-fixed center-block cee6ZNv" xid="col4" style="width:auto;" __cid="cee6ZNv"> 
+                          <div component="$model/UI2/system/components/justep/output/output" class="x-output cee6ZNv" xid="output1" data-bind="component:{ref:ref(&quot;fCount&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="cee6ZNv"/> 
+                        </div>  
+                        <div class="x-col x-col-fixed center-block cee6ZNv" xid="col5" style="width:auto;" __cid="cee6ZNv"> 
+                          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cee6ZNv" xid="addCarBtn" style="color:#000000;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:addCarBtnClick" data-config="{&quot;icon&quot;:&quot;linear linear-bus&quot;,&quot;label&quot;:&quot;加一份&quot;}" __cid="cee6ZNv"> 
+                            <i xid="i2" class="linear linear-bus cee6ZNv" __cid="cee6ZNv"/>  
+                            <span xid="span1" __cid="cee6ZNv" class="cee6ZNv">加一份</span> 
+                          </a> 
+                        </div> 
+                      </div>  
+                      <div component="$model/UI2/system/components/justep/list/list" class="x-list cee6ZNv" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" __cid="cee6ZNv"> 
+                        <ul class="x-list-template hide cee6ZNv" xid="listTemplateUl4" __cid="cee6ZNv"> 
+                          <li xid="li4" __cid="cee6ZNv" class="cee6ZNv"/> 
+                        </ul> 
+                      </div> 
+                    </li> 
+                  </ul> 
+                </div> 
+              </li> 
+            </ul> 
+          </div>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default btn-only-label pull-right cee6ZNv" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;label&quot;:&quot;我的菜单&quot;}" __cid="cee6ZNv"> 
+            <i xid="i3" __cid="cee6ZNv" class="cee6ZNv"/>  
+            <span xid="span2" __cid="cee6ZNv" class="cee6ZNv" data-bind="text:$model.calcData.val(&quot;fSumCount&quot;)&gt;0?&quot;我的菜单(&quot;+ $model.calcData.val(&quot;fSumCount&quot;)+&quot;)&quot;:&quot;我的菜单&quot;">我的菜单</span> 
+          </a> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cee6ZNv" class="cee6ZNv">.x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-top {height: 49px;}.x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-content { top: 49px;bottom: nullpx;}.x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-top {height: 69px;}.iosstatusbar .x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-content { top: 69px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-top {height: 49px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcyi2uYv-iosstatusbar &gt;.x-panel-content {top: 49px;}</style> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:10px;left:38px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;height&quot;:&quot;50%&quot;,&quot;src&quot;:&quot;$model/UI2/Ending/ChooseBig.w&quot;,&quot;status&quot;:&quot;normal&quot;,&quot;width&quot;:&quot;80%&quot;}" __cid="cee6ZNv" class="cee6ZNv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cee6ZNv" __cid="cee6ZNv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cee6ZNv" style="display:none;" __cid="cee6ZNv">  
+      <div class="x-dialog-title cee6ZNv" __cid="cee6ZNv"> 
+        <button class="close cee6ZNv" __cid="cee6ZNv"> 
+          <span __cid="cee6ZNv" class="cee6ZNv">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cee6ZNv" __cid="cee6ZNv"/> 
+      </div>  
+      <div class="x-dialog-body cee6ZNv" __cid="cee6ZNv"/> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog2" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/Ending/Menu.w&quot;}" __cid="cee6ZNv" class="cee6ZNv"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cee6ZNv" __cid="cee6ZNv"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cee6ZNv" style="display:none;" __cid="cee6ZNv">  
+      <div class="x-dialog-title cee6ZNv" __cid="cee6ZNv"> 
+        <button class="close cee6ZNv" __cid="cee6ZNv"> 
+          <span __cid="cee6ZNv" class="cee6ZNv">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cee6ZNv" __cid="cee6ZNv"/> 
+      </div>  
+      <div class="x-dialog-body cee6ZNv" __cid="cee6ZNv"/> 
+    </div> 
+  </span> 
+</div>

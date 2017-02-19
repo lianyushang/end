@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cma22mu" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cma22mu" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/labelEdit/labelEdit,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/windowReceiver/windowReceiver,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.tb-box.cma22mu .tb-backBtn.cma22mu{width: 40px; height: 40px; border-radius: 65px; color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0.4)} .tb-trans.cma22mu .x-panel-top.cma22mu .x-titlebar.cma22mu{background: none}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cma22mu" class="cma22mu"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full tb-trans pcf2Yb2y-iosstatusbar cma22mu" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cma22mu"> 
+    <div class="x-panel-top cma22mu" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cma22mu"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar tb-box cma22mu" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" __cid="cma22mu"> 
+        <div class="x-titlebar-left cma22mu" xid="left1" __cid="cma22mu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon tb-backBtn cma22mu" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:{&quot;operation&quot;:&quot;window.close&quot;}" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cma22mu"> 
+            <i xid="i1" class="icon-chevron-left cma22mu" __cid="cma22mu"/>  
+            <span xid="span1" __cid="cma22mu" class="cma22mu"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cma22mu" xid="title1" __cid="cma22mu"/>  
+        <div class="x-titlebar-right  cma22mu" xid="right1" __cid="cma22mu"> 
+          <div class="empty cma22mu" __cid="cma22mu"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cma22mu" xid="content1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cma22mu"> 
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel pcqQfQ3m-iosstatusbar cma22mu" xid="panel2" style="height:80%;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cma22mu"> 
+        <div class="x-contents-content cma22mu" xid="content4" __cid="cma22mu"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cma22mu" xid="button5" style="width:100%;background-color:green;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;label&quot;:&quot;在线预约&quot;}" __cid="cma22mu"> 
+            <i xid="i5" __cid="cma22mu" class="cma22mu"/>  
+            <span xid="span10" __cid="cma22mu" class="cma22mu">在线预约</span> 
+          </a>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cma22mu" xid="labelEdit1" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label1" __cid="cma22mu">手机号码</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input1" data-bind="component:{ref:$model.UserData.ref(&quot;fPhone&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cma22mu" xid="labelEdit2" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label2" __cid="cma22mu">用户姓名</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input2" data-bind="component:{ref:$model.UserData.ref(&quot;fName&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cma22mu" xid="labelEdit3" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label3" __cid="cma22mu">预约时间</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input3" data-bind="component:{ref:$model.UserData.ref(&quot;fDate&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input5" data-bind="component:{ref:$model.UserData.ref(&quot;fTime&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cma22mu" xid="labelEdit4" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label4" __cid="cma22mu">预约人数</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input4" data-bind="component:{ref:$model.UserData.ref(&quot;fNumber&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/>  
+            <span xid="span9" __cid="cma22mu" class="cma22mu">人左右</span> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label60 cma22mu" xid="labelEdit5" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label5" __cid="cma22mu">预约位置</label>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cma22mu" xid="Btn1" style="width:70px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:Btn1Click" data-config="{&quot;label&quot;:&quot;大厅&quot;}" __cid="cma22mu"> 
+              <i xid="i6" __cid="cma22mu" class="cma22mu"/>  
+              <span xid="span11" __cid="cma22mu" class="cma22mu"/> 
+            </a>  
+            <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default cma22mu" xid="Btn0" style="width:70px;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:Btn0Click" data-config="{&quot;label&quot;:&quot;包间&quot;}" __cid="cma22mu"> 
+              <i xid="i7" __cid="cma22mu" class="cma22mu"/>  
+              <span xid="span12" __cid="cma22mu" class="cma22mu"/> 
+            </a> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/labelEdit/labelEdit" class="x-label-edit x-label30 cma22mu" xid="labelEdit6" data-bind="component:{name:'$model/UI2/system/components/justep/labelEdit/labelEdit'}" __cid="cma22mu"> 
+            <label class="x-label cma22mu" xid="label6" __cid="cma22mu">备注说明</label>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control x-edit cma22mu" xid="input6" data-bind="component:{ref:$model.UserData.ref(&quot;fRemarks&quot;),name:'$model/UI2/system/components/justep/input/input'}" __cid="cma22mu"/> 
+          </div> 
+        </div>  
+        <style __cid="cma22mu" class="cma22mu">.x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcqQfQ3m-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel pcZ7bM7v-iosstatusbar cma22mu" xid="panel3" style="height:20%;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cma22mu"> 
+        <div class="x-panel-content cma22mu" xid="content3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cma22mu"> 
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cma22mu" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cma22mu"> 
+            <div class="x-col x-col-fixed cma22mu" xid="col1" style="width:20px;" __cid="cma22mu"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cma22mu" xid="button3" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-phonehandset&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cma22mu"> 
+                <i xid="i3" class="linear linear-phonehandset cma22mu" __cid="cma22mu"/>  
+                <span xid="span3" __cid="cma22mu" class="cma22mu"/> 
+              </a> 
+            </div>  
+            <div class="x-col x-col-fixed cma22mu" xid="col2" style="width:auto;" __cid="cma22mu"> 
+              <span xid="span4" style="color:#FF0000;font-size:small;" __cid="cma22mu" class="cma22mu">预约电话：</span> 
+            </div>  
+            <div class="x-col cma22mu" xid="col3" __cid="cma22mu"> 
+              <span xid="span5" __cid="cma22mu" class="cma22mu">400-358-1587</span> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/justep/row/row" class="x-row cma22mu" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cma22mu"> 
+            <div class="x-col x-col-fixed cma22mu" xid="col4" style="width:20px;" __cid="cma22mu"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs btn-only-icon cma22mu" xid="button4" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;linear linear-bicycle&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="cma22mu"> 
+                <i xid="i4" class="linear linear-bicycle cma22mu" __cid="cma22mu"/>  
+                <span xid="span8" __cid="cma22mu" class="cma22mu"/> 
+              </a> 
+            </div>  
+            <div class="x-col x-col-fixed cma22mu" xid="col5" style="width:auto;" __cid="cma22mu"> 
+              <span xid="span6" style="color:#FF0000;font-size:small;" __cid="cma22mu" class="cma22mu">公司地址：</span> 
+            </div>  
+            <div class="x-col cma22mu" xid="col6" __cid="cma22mu"> 
+              <span xid="span7" __cid="cma22mu" class="cma22mu">江南大道588号恒鑫大厦2106室</span> 
+            </div> 
+          </div> 
+        </div>  
+        <style __cid="cma22mu" class="cma22mu">.x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcZ7bM7v-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cma22mu" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cma22mu"> 
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-default center-block cma22mu" xid="Btn" style="width:70%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:BtnClick" data-config="{&quot;label&quot;:&quot;提交预约&quot;}" __cid="cma22mu"> 
+        <i xid="i2" __cid="cma22mu" class="cma22mu"/>  
+        <span xid="span2" __cid="cma22mu" class="cma22mu">提交预约</span> 
+      </a> 
+    </div>  
+    <style __cid="cma22mu" class="cma22mu">.x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcf2Yb2y-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;height&quot;:&quot;33%&quot;,&quot;resizable&quot;:true,&quot;src&quot;:&quot;$model/UI2/Ending/Location-submit.w&quot;,&quot;width&quot;:&quot;95%&quot;}" __cid="cma22mu" class="cma22mu"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay cma22mu" __cid="cma22mu"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog cma22mu" style="display:none;" __cid="cma22mu">  
+      <div class="x-dialog-title cma22mu" __cid="cma22mu"> 
+        <button class="close cma22mu" __cid="cma22mu"> 
+          <span __cid="cma22mu" class="cma22mu">×</span> 
+        </button>  
+        <div class="x-dialog-title-text cma22mu" __cid="cma22mu"/> 
+      </div>  
+      <div class="x-dialog-body cma22mu" __cid="cma22mu"/> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowReceiver/windowReceiver" xid="windowReceiver1" data-bind="component:{name:'$model/UI2/system/components/justep/windowReceiver/windowReceiver'}" __cid="cma22mu" class="cma22mu"/> 
+</div>
